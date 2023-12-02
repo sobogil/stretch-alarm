@@ -4,11 +4,11 @@
 
 ## 목차
 
-- [Motive](#introduction)
+- [Motivation](#introduction)
 - [Description](#installation)
 - [Usage](#usage)
 
-## Motive <a name="introduction"></a>
+## Motivation <a name="introduction"></a>
 
 * 많은 사람들이 vscode를 사용을 하는데 하다보면 장시간 스트레칭도 안하고 작업을 진행해 스트레칭을 권장할 겸 만들게 되었다.
 
@@ -22,7 +22,7 @@
 2. 한시간이 지나면 해당 알림이 온다.  
 ![스트레칭](./image/result.png)
 
-3. 예를 눌렀을 시  
+3. 예를 눌렀을 시 (체조 동영상 url로 이동할 수 있다)   
 ![예](./image/result_yes.png) 
 
 4. 아니오를 눌렀을 시  
