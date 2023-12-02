@@ -43,5 +43,7 @@
 `manage`(좌측 하단 톱니바퀴모양) -> `setting`-> 검색창에 `interval` -> `Extensions` -> `strtching alarm`에서 알람 시간을 본인이 지정 할 수 있다.  
 (프로그램 시작전에 설정해 주세요)
 
+## LICENSE
+MIT  
 
-**Enjoy!**
+
