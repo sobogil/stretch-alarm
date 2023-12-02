@@ -33,14 +33,24 @@
 ## Usage <a name="usage"></a>
 
 1. 다운받는 방법
+<<<<<<< HEAD
     * vscode extensions에 stretch-alarm이라고 검색하고 install한 후 command palette에서 `stretching`을 입력하면 사용해볼 수 있다.   
     ![다운](./image/alarm.png)
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#review-details)
+=======
+    * vscode extensions에 stretch-alarm이라고 검색하고 install한 후 command palette에서 `stretching`을 입력하면 사용해볼 수 있다.    
+    ![다운](./image/alarm.png)  
+    * [Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#overview)
+>>>>>>> 34a8406031a2740dc7965a5bbcd47de41d5243d9
 
 2. 시간 지정하고 만들어 보기
     ```
     git clone https://github.com/sobogil/stretch-alarm.git
     ```
+<<<<<<< HEAD
     src/extension.ts파일에서 시간 값을 변경하여 본인에게 원하는 알람으로 만들면 된다.   
+=======
+    후 src/extension.ts파일에서 시간 값을 변경하여 본인에게 원하는 알람으로 만들면 된다.   
+>>>>>>> 34a8406031a2740dc7965a5bbcd47de41d5243d9
 
 **Enjoy!**
