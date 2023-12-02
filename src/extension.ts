@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
             const currentDate = new Date();
             const currentHour = currentDate.getHours();
             const currentMinute = currentDate.getMinutes();
-            if (currentHour === 19 && currentMinute === 17) {
+            if (currentHour === 23 && currentMinute === 0) {
                 vscode.window.showInformationMessage('❗하루가 지나기 1시간 전입니다.❗');
             }
         }, 10000); // 1분마다 현재 시간을 체크
@@ -26,7 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
                         );
                     }
                 });
-        }, 20*1000); // 30분마다 알림
+        }, 60*60*1000); // 60분마다 알림
     });
 
     context.subscriptions.push(disposable);
