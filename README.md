@@ -20,20 +20,21 @@
 ![시작알림](./image/start.png)
 
 2. 한시간이 지나면 해당 알림이 온다.  
-![시작알림](./image/result.png)
+![스트레칭](./image/result.png)
 
 3. 예를 눌렀을 시  
-![시작알림](./image/result_yes.png) 
+![예](./image/result_yes.png) 
 
 4. 아니오를 눌렀을 시  
-![시작알림](./image/result_no.png)
+![아니오](./image/result_no.png)
 
 5. 밤 11시에 나오는 알림  
-![시작알림](./image/pm11.png)
+![밤 11시](./image/pm11.png)
 ## Usage <a name="usage"></a>
 
 1. 다운받는 방법
-    * vscode extensions에 stretch-alarm이라고 검색하고 install한 후 command palette에서 'stretching'을 입력하면 사용해볼 수 있다.     
+    * vscode extensions에 stretch-alarm이라고 검색하고 install한 후 command palette에서 'stretching'을 입력하면 사용해볼 수 있다. 
+    ![다운](./image/alarm.png)
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#review-details)
 
 2. 시간 지정하고 만들어 보기
@@ -41,5 +42,5 @@
     git clone https://github.com/sobogil/stretch-alarm.git
     '''
     후 src/extension.ts파일에서 시간 값을 변경하여 본인에게 원하는 알람으로 만들면 된다.   
-    
+
 **Enjoy!**
