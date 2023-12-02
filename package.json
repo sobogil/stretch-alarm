@@ -20,7 +20,17 @@
         "command": "extension.stretch",
         "title": "Stretching"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Stretching Alram",
+      "properties": {
+        "stretch.interval": {
+          "type": "number",
+          "default": 60,
+          "description": "Interval for the stretch alert in minutes"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
