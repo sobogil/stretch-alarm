@@ -14,7 +14,7 @@
 
 ## Description <a name="installation"></a>
 
-* vscode의 확장 프로그램으로 한시간마다 알림을 준다.
+* vscode의 확장 프로그램으로 세팅에서 시간을 지정해 알림을 준다.
 
 1. 시작시 알림을 주어 프로그램이 실행 됐다는 것을 알려준다.  
 ![시작알림](./image/real_start.png)
