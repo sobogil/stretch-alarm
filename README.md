@@ -4,11 +4,11 @@
 
 ## 목차
 
-- [계기](#introduction)
+- [Motive](#introduction)
 - [Description](#installation)
 - [Usage](#usage)
 
-## 계기 <a name="introduction"></a>
+## Motive <a name="introduction"></a>
 
 * 많은 사람들이 vscode를 사용을 하는데 하다보면 장시간 스트레칭도 안하고 작업을 진행해 스트레칭을 권장할 겸 만들게 되었다.
 
