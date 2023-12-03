@@ -40,7 +40,7 @@
 
 2. 알람시간 지정 방법
 ![시간지정](./image/interval.png)  
-`manage`(좌측 하단 톱니바퀴모양) -> `setting`-> 검색창에 `interval` -> `Extensions` -> `strtching alarm`에서 알람 시간을 본인이 지정 할 수 있다.  
+`manage`(좌측 하단 톱니바퀴모양) -> `setting`-> 검색창에 `interval` -> `Extensions` -> `strtching alarm`에서 알람 시간을 본인이 지정 할 수 있다.(0.1분도 설정가능)
 (프로그램 시작전에 설정해 주세요)
 
 ## Reference
