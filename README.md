@@ -45,8 +45,11 @@
 
 ## Reference
 https://github.com/microsoft/vscode-generator-code.git   
-https://www.youtube.com/watch?v=q5V4T3o3CXE
+https://www.youtube.com/watch?v=q5V4T3o3CXE  
+
+## Requirement
+vscode가 최신버전이 아니면 실행이 안될 수도 있습니다.
 ## LICENSE
-MIT  
+[MIT](LICENSE)  
 
 
