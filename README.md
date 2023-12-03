@@ -14,7 +14,7 @@
 
 ## Description <a name="installation"></a>
 
-* vscode의 확장 프로그램으로 세팅에서 시간을 지정해 알림을 준다.
+* vscode의 확장 프로그램으로 내가 원하는 interval을 설정해 알림을 주는 시스템
 
 1. 시작시 알림을 주어 프로그램이 실행 됐다는 것을 알려준다.  
 ![시작알림](./image/real_start.png)
@@ -36,7 +36,7 @@
     * vscode extensions에 `stretch-alarm`이라고 검색하고 install한 후 command palette에서 `stretching`을 입력하면 사용해볼 수 있다.    
     ![다운](./image/alarm.png)  
     * [Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#overview)에서 직접 다운 받아서 사용해 볼 수도 있다.
-      `.vsix`파일을 다운 받았으면 extensions에 들어가서  ···을 누른다음 `install from VSIX...`를 클릭해 다운받은 파일을 열면 된다.
+      `.vsix`파일을 다운 받았으면 extensions에 들어가서  `···`을 누른다음 `install from VSIX...`를 클릭해 다운받은 파일을 열면 된다.
 
 2. 알람시간 지정 방법
 ![시간지정](./image/interval.png)  
