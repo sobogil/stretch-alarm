@@ -1,5 +1,5 @@
 # ⏰ stretch-alarm
-
+* vscode extension program
 
 
 ## 목차
@@ -14,50 +14,44 @@
 
 ## Description <a name="installation"></a>
 
-* vscode의 확장 프로그램으로 한시간마다 알림을 준다.
+* vscode의 확장 프로그램으로 내가 원하는 interval을 설정해 알림을 주는 시스템
 
 1. 시작시 알림을 주어 프로그램이 실행 됐다는 것을 알려준다.  
 ![시작알림](./image/real_start.png)
 
-2. 한시간이 지나면 해당 알림이 온다.  
-![스트레칭](./image/result.png)
+2. 본인이 지정한 시간이 지나면 해당 알림이 온다. (알림의 내용은 3가지중에서 랜덤으로 옵니다)  
+![스트레칭](./image/result.png)  
+![스트레칭](./image/result2.png)  
+![스트레칭](./image/result3.png)  
 
 3. 예를 눌렀을 시 (체조 동영상 url로 이동할 수 있다)   
 ![예](./image/result_yes.png) 
 
 4. 아니오를 눌렀을 시  
-![아니오](./image/result_no.png)
+![아니오](./image/result_no.png)  
 
-5. 밤 11시에 나오는 알림  
-![밤 11시](./image/pm11.png)
+* 프로그램이 실행된 상태에서 다시 시작시 종료가 된다.
+![종료](./image/down.png)   
 ## Usage <a name="usage"></a>
 
 1. 다운받는 방법
-<<<<<<< HEAD
-    * vscode extensions에 stretch-alarm이라고 검색하고 install한 후 command palette에서 `stretching`을 입력하면 사용해볼 수 있다.   
-    ![다운](./image/alarm.png)
-[Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#review-details)
-=======
-    * vscode extensions에 stretch-alarm이라고 검색하고 install한 후 command palette에서 `stretching`을 입력하면 사용해볼 수 있다.    
+    * vscode extensions에 `stretch-alarm`이라고 검색하고 install한 후 command palette(F1키)에서 `stretching`을 입력하면 사용해볼 수 있다.    
     ![다운](./image/alarm.png)  
-    * [Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#overview)
->>>>>>> 34a8406031a2740dc7965a5bbcd47de41d5243d9
+    * [Marketplace](https://marketplace.visualstudio.com/items?itemName=sobogil.stretch-alarm&ssr=false#overview)에서 직접 다운 받아서 사용해 볼 수도 있다.
+      `.vsix`파일을 다운 받았으면 extensions에 들어가서  `···`을 누른다음 `install from VSIX...`를 클릭해 다운받은 파일을 열면 된다.
 
-2. 시간 지정하고 만들어 보기
-    ```
-    git clone https://github.com/sobogil/stretch-alarm.git
-    ```
-<<<<<<< HEAD
-    src/extension.ts파일에서 시간 값을 변경하여 본인에게 원하는 알람으로 만들면 된다.   
-=======
-    후 src/extension.ts파일에서 시간 값을 변경하여 본인에게 원하는 알람으로 만들면 된다.   
->>>>>>> 34a8406031a2740dc7965a5bbcd47de41d5243d9
-
-* 알람시간 지정 방법
+2. 알람시간 지정 방법
 ![시간지정](./image/interval.png)  
-`manage`(좌측 하단 톱니바퀴모양) -> `setting`-> 검색창에 `interval` 이라고 치면 알람 시간을 본인이 지정 할 수 있다.  
+`manage`(좌측 하단 톱니바퀴모양) -> `setting`-> 검색창에 `interval` -> `Extensions` -> `strtching alarm`에서 알람 시간을 본인이 지정 할 수 있다.(0.1분도 설정가능)
 (프로그램 시작전에 설정해 주세요)
 
-* 프로그램이 실행된 상태에서 다시 시작시 종료가 된다
+## Reference
+https://github.com/microsoft/vscode-generator-code.git   
+https://www.youtube.com/watch?v=q5V4T3o3CXE  
 
-**Enjoy!**
+## Requirement
+vscode가 최신버전이 아니면 실행이 안될 수도 있습니다.
+## LICENSE
+[MIT](LICENSE)  
+
+
